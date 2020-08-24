@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/AboutMe"
-        android:title="item" />
+        android:id="@+id/About"
+        android:title="@string/About" />
     <item
         android:id="@+id/Contact"
-        android:title="Item" />
+        android:title="@string/Contact" />
 </menu>
