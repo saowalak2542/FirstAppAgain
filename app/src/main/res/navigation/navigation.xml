@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.newfirstapp.AboutFragment"
+        android:name="com.example.firstappagain.AboutFragment"
         android:label="AboutFragment"
         tools:layout="@layout/fragment_about" />
 
