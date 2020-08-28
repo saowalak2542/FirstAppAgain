@@ -3,8 +3,8 @@
 
     <item
         android:id="@+id/aboutFragment"
-        android:title="@string/about" />
+        android:title="About" />
     <item
-        android:id="@+id/Contact"
-        android:title="@string/contact" />
+        android:id="@+id/contactFragment"
+        android:title="Contact" />
 </menu>
