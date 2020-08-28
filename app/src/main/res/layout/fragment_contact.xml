@@ -12,6 +12,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/eee"
         tools:context=".contact.ContactFragment">
 
         <!-- TODO: Update blank fragment layout -->
@@ -21,17 +22,19 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/Name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="name"
                 android:inputType="text" />
 
             <EditText
-                android:id="@+id/editTextTextPersonPhone"
+                android:id="@+id/Nickname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="nickname"
                 android:inputType="text" />
 
             <Button
@@ -39,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="@{()->contactViewModel.onContactAdd()}"
-                android:text="Button" />
+                android:text="submit" />
 
             <TextView
                 android:id="@+id/textview"
